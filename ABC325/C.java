@@ -12,7 +12,7 @@ public class Main {
         char[][] arr = new char[h][w];
         for (int i = 0; i < h; i++) {
             String line = sc.next();
-            arr[i] = line.toCharArray();
+            arr[i] = line.toCharArray(); //文字が配列に格納できる
         }
 
         for (int i = 0; i < h; i++) {
