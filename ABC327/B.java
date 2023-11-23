@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long B = Long.parseLong(scanner.next());//文字列を数値に変換してくれる
-        BigDecimal b = new BigDecimal(B);
+        BigDecimal b = new BigDecimal(B); // 出力の仕方に浮動小数店を用いない
         scanner.close();
         for (int i=1;i<16;i++) {
             BigDecimal x = new BigDecimal(i);
